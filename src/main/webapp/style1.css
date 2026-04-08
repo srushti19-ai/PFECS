@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+body{
+    min-height: 100vh;
+    color: #333;
+    display: flex;
+    flex-direction: column; 
+}
+footer{
+    margin-top: auto;
+    padding: 20px;
+    color: black;
+    background: rgba(0,0,0,0.2);
+    width : 100%;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+.data .data-contact{
+	margin:10px;
+	padding:20px;
+	display:flex;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+}

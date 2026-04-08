@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+	min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #333;
+}
+
+
+
+/* NAVBAR */
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+}
+
+.nav-left{
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+}
+
+.nav-right a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-right a:hover{
+    text-decoration: underline;
+}
+
+/* HERO */
+.hero{
+    text-align: center;
+    padding: 70px 20px;
+    color: white;
+}
+
+.hero img{
+    height: 70px;
+    margin-bottom: 12px;
+}
+
+.hero h1{
+    font-size: 2.0rem;
+    margin-bottom: 8px;
+}
+
+.hero p{
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* ACTIONS */
+.actions{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 45px;
+}
+
+.action-card{
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255,255,255,0.85);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.action-card h4{
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.action-card h4 a{
+	text-decoration: none;
+}
+
+.action-card p{
+    font-size: 11px;
+    color: #555;
+}
+
+.action-card:hover{
+    transform: translateY(-10px) scale(1.03);
+    background: white;
+}
+
+/* FOOTER */
+footer{
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: rgba(0,0,0,0.2);
+}
+
+.main{
+	display:flex;
+}
+table {
+    width: 100%;          /* reduce table width */
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 5px;   /* reduce text size */
+    
+}
+
+th, td {
+    padding: 5px;     /* reduce cell spacing */
+    text-align: center;
+}
+.navbar{
+	
+	border: 1px solid #272523;
+	justify-content:space-between;
+}
+.navbar a,button,form{
+	text-decoration: none;
+	  padding: 4px 17px;
+	  font-size: 8px; 
+	  display:inline-block;
+	  opacity:1;
+}
+body {
+    background-color: #f8f9fa;   /* Bootstrap bg-light color */
+}
+
+#search{
+	float: right;
+}
+button+input{
+	float: right;
+}
+.topnav{
+	width: 200px; 
+}
+.navbar2 {
+	top:50px;
+    width: 130px;         /* navbar width */
+    position:fixed;  /* sticky */
+    height: 100%;          /* full height */
+    overflow: auto;        /* scroll if content too tall */
+    padding-top: 15px;
+    font-size: 8px;
+    bottom: 0;       /* Aligns it to the bottom edge of the viewport */
+    left: 0;
+    margin:10px;
+    background-color: #f1f1f1;
+}
+
+.navbar2 a {
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 8px;
+}
+
+.navbar2 a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+/* Main content area */
+.newtag {
+    margin-left: 160px;   /* same as navbar width + small gap */
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* push left & right items apart */
+    align-items: center;
+    background-color: #eee;
+    padding: 5px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar a, .navbar button, .navbar form {
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+
+

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PFECS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body align=center>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="addRecord.html">Add Record</a>
+  <a href="deleteRecord.html">Delete Record</a>
+  <a href="showRecord.html">Show Records</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+<h2>Registration Page</h2>
+<form method=post action="AddRecordServlet">
+<label for="Country">Choose Country:</label>
+<select name="Country" id="Country" required>
+  <option value="">--Select an Option--</option>
+  <option value="Czech">Czech</option>
+  <option value="Finland">Finland</option>
+  <option value="France">France</option>
+  <option value="Germany">Germany</option>
+  <option value="Netherlands">Netherlands</option>
+  <option value="other">other</option>
+</select>
+<label for="Course">Choose Course:</label>
+<select name="Course" id="Course" required>
+  <option value="">--Select an Option--</option>
+  <option value="BCS">Advanced Computational and Civil engineering structural studies</option>
+  <option value="MCS">Advanced Functional Materials</option>
+  <option value="BTech">Advanced Materials</option>
+  <option value="BBA">Aerospace Engineering (TUM Asia)</option>
+  <option value="BCS">Agricultural Economics</option>
+  <option value="MCS">Agricultural Sciences in the tropics and Subtropics</option>
+  <option value="BTech">Automotive Engineering</option>
+  <option value="BBA">Automotive Software Engineering</option>
+  <option value="BCS">Aviation and Tourism Business</option>
+  <option value="MCS">Biochemistry</option>
+  <option value="BTech">Biodiversity and Collective Management</option>
+  <option value="BBA">Bioeconomy</option>
+  <option value="BCS">Biology</option>
+  <option value="MCS">Biomedical Computing</option>
+  <option value="BTech">Biomedical Engineering</option>
+  <option value="BBA">Biophysics</option>
+  <option value="BCS">Biotechnology</option>
+  <option value="MCS">British,American and Postcolonial Studies</option>
+  <option value="BTech">Cartography</option>
+  <option value="BBA">Chemical Engineering</option>
+  <option value="BCS">Clima Design</option>
+  <option value="MCS">Cloud Computing and Services</option>
+  <option value="BTech">Cognitive Systems</option>
+  <option value="BBA">Communication Management</option>
+  <option value="BCS">Communications Engineering</option>
+  <option value="MCS">Communications Technology</option>
+  <option value="BTech">Computational life Science</option>
+  <option value="BBA">Computational Mechanics</option>
+ <option value="BCS">Computational Neuroscience</option>
+  <option value="MCS">Computational Science and Engineering</option>
+  <option value="BTech">Computer aided conception and productionin mechanical engineering</option>
+  <option value="BCS">Computer Science</option>
+  <option value="MCS">Crop Sciences</option>
+  <option value="BTech">Data Engineering</option>
+  <option value="BBA">Data Science</option>
+  <option value="BCS">Earth and Climate System Science</option>
+  <option value="MCS">Economics</option>
+  <option value="BTech">eMBA in Service Excellence (Part time)</option>
+  <option value="BBA">Embedded Systems</option>
+  <option value="BCS">English & American Studies</option>
+  <option value="MCS">Environmental and Resource Management</option>
+  <option value="BTech">Environmental Planning</option>
+  <option value="BBA">Environmental policy and planning</option>
+  <option value="BCS">Environmental Protection and Agricultural Food Production</option>
+  <option value="MCS">Euro Hydro Informatics and Water Management</option>
+  <option value="BTech">Extended Master Human Resource Studies(1,5 year)</option>
+  <option value="BBA">General Management</option>
+  <option value="BCS">Geodesy and Geoinformation Science</option>
+  <option value="MCS">Geoinformatics</option>
+  <option value="BTech">Geospatial Technologies</option>
+  <option value="BBA">Geothermal Engineering</option>
+  <option value="BCS">German-Indian Management Studies</option>
+  <option value="MCS">Global Management</option>
+  <option value="BTech">Heritage conservation and site management</option>
+  <option value="BBA">Industrial and network Economics</option>
+  <option value="BCS">Informaiton Systems Management</option>
+  <option value="MCS">Information & Communication Systems</option>
+  <option value="BTech">Information Management</option>
+  <option value="BBA">Information Systems</option>
+  <option value="BCS">Information Systems Management</option>
+  <option value="MCS">Innovation Management and Enterpreneurship</option>
+  <option value="BTech">International Business Management</option>
+  <option value="BBA">International Business Tax Economics</option>
+  <option value="BCS">International Management</option>
+  <option value="MCS">International Master in Management of IT(IMMIT)</option>
+  <option value="BTech">International Relations</option>
+  <option value="BBA">International Relations: European Studies</option>
+  <option value="BCS">International Relations: Global Affairs</option>
+  <option value="MCS">International Relations: Security Studies</option>
+  <option value="BTech">Internet technologies & Information Systems</option>
+  <option value="BBA">Laboratory Animal Science</option>
+  <option value="BCS">Laser in Dentistry</option>
+  <option value="MCS"></option>
+  <option value="BTech">Advanced Materials</option>
+  <option value="BBA">Aerospace Engineering (TUM Asia)</option>
+  <option value="BCS">Advanced Computational and Civil engineering structural studies</option>
+  <option value="MCS">Advanced Functional Materials</option>
+  <option value="BTech">Advanced Materials</option>
+  <option value="BBA">Aerospace Engineering (TUM Asia)</option>
+</select><br><br>
+<label for="University">Choose University:</label>
+<select name="University" id="University" required>
+  <option value="">--Select an Option--</option>
+  <option value="Pune University">Pune-University</option>
+  <option value="Mumbai University">Mumbai-University</option>
+</select>
+<label for="Type">Choose Type:</label>
+<select name="Type" id="Type" required>
+  <option value="">--Select an Option--</option>
+  <option value="Private">Private</option>
+  <option value="Public">Public</option>
+</select><br><br>
+<label for="Application">Choose Application:</label>
+<select name="Application" id="Application" required>
+  <option value="">--Select an Option--</option>
+  <option value="Direct">Direct</option>
+  <option value="Uniassist">Uniassist</option>
+</select>
+<label for="Degree">Choose Degree:</label>
+<select name="Degree" id="Degree" required>
+  <option value="">--Select an Option--</option>
+  <option value="Bachelor">Bachelor</option>
+  <option value="MA">MA</option>
+  <option value="MBA">MBA</option>
+  <option value="MBA&MEng">MBA & MEng</option>
+  <option value="MEng">MEng</option>
+  <option value="MSc">MSc</option>
+</select><br><br>
+
+<label for="Language">Choose Language:</label>
+<select name="Language" id="Language" required>
+  <option value="">--Select an Option--</option>
+  <option value="English">English</option>
+</select>
+<label for="Stream">Choose Stream:</label>
+<select name="Stream" id="Stream" required>
+  <option value="">--Select an Option--</option>
+  <option value=""></option>
+</select><br><br>
+<label for="Semester">Choose Semester:</label>
+<select name="Semester" id="Semester" required>
+  <option value="">--Select an Option--</option>
+  <option value="MainlyWinter&Summer">Mainly Winter & Summer</option>
+  <option value="Summer">Summer</option>
+  <option value="Summer&Winter">Summer & Winter</option>
+  <option value="SummerandWinter">Summer and Winter</option>
+  <option value="Winter">Winter</option>
+  <option value="Winter&Summer">Winter & Summer</option>
+</select>
+Define Deadline:<input type=text name=Deadline placeholder="Deadline"><br><br>
+
+<label for="Requirement">Requirement:</label>
+<textarea name="Requirement" id="Requirement" cols="25" rows="3" placeholder="type here"></textarea>
+Define Fee:<input type=text name=Fee placeholder="Fee"><br><br>
+Define Link:<input type=text name=Link placeholder="Link"><br><br>
+<input type=submit value="Submit">
+</form>
+</body>
+</html>

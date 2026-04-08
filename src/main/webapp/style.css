@@ -1,0 +1,121 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #333;
+    display: flex;
+    flex-direction: column; 
+}
+
+/* NAVBAR */
+
+
+.nav-left{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-right a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-right a:hover{
+    text-decoration: underline;
+}
+
+/* HERO */
+.hero{
+    text-align: center;
+    padding: 70px 20px;
+    color: white;
+}
+
+.hero img{
+    height: 70px;
+    margin-bottom: 12px;
+}
+
+.hero h1{
+    font-size: 2.0rem;
+    margin-bottom: 8px;
+}
+
+.hero p{
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* ACTIONS */
+.actions{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 45px;
+}
+
+.action-card{
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255,255,255,0.85);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.action-card h4{
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.action-card h4 a{
+	text-decoration: none;
+}
+
+.action-card p{
+    font-size: 11px;
+    color: #555;
+}
+
+.action-card:hover{
+    transform: translateY(-10px) scale(1.03);
+    background: white;
+}
+
+/* FOOTER */
+footer{
+    margin-top: auto;
+    padding: 20px;
+    color: white;
+    background: rgba(0,0,0,0.2);
+    width : 100%;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+}
+.data .data-contact{
+	margin:10px;
+	padding:20px;
+	display:flex;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
